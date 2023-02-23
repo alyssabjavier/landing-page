@@ -1,1 +1,1 @@
-# landing-page
+In this project I will be recreating a typical website layout using content provided.
