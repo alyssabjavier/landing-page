@@ -5,6 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
 .dark {
@@ -19,7 +20,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    padding: 16px 48px;
+    padding: 16px 60px;
     margin-bottom: 48px;
 }
 
@@ -51,7 +52,7 @@ a, .subtext, button {
 .container-1 {
     background-color: #1f2937;
     display: flex;
-    padding: 16px 48px;
+    padding: 16px 60px;
     gap: 60px;
 }
 
@@ -80,4 +81,42 @@ button {
     width: 400px;
     height: 400px;
     flex-shrink: 0;
+}
+
+/*container-2*/
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 60px;
+    margin-bottom: 16px;
+}
+
+.container-2 h1 {
+    color: #1f2937;
+    font-weight: bolder;
+    font-size: 36px;
+}
+
+.items {
+    display: flex;
+    gap: 32px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.item img {
+    width: 140px;
+    height: 140px;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+.under {
+    text-align: center;
 }
