@@ -3,6 +3,11 @@ body {
     margin: 0;
     min-height: 100vh;
     display: flex;
+    justify-content: center;
+}
+
+.content {
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
@@ -20,8 +25,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    padding: 16px 60px;
-    margin-bottom: 48px;
+    padding: 16px 80px;
+    margin-bottom: 60px;
 }
 
 .logo {
@@ -52,7 +57,7 @@ a, .subtext, button {
 .container-1 {
     background-color: #1f2937;
     display: flex;
-    padding: 16px 60px;
+    padding: 16px 80px;
     gap: 60px;
 }
 
@@ -81,6 +86,7 @@ button {
     width: 400px;
     height: 400px;
     flex-shrink: 0;
+    margin-bottom: 16px;
 }
 
 /*container-2*/
@@ -88,14 +94,14 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 16px 60px;
-    margin-bottom: 16px;
+    padding: 60px;
 }
 
 .container-2 h1 {
     color: #1f2937;
     font-weight: bolder;
     font-size: 36px;
+    margin-top: 0;
 }
 
 .items {
@@ -119,4 +125,27 @@ button {
 
 .under {
     text-align: center;
+}
+
+/*container-3*/
+.container-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px 80px;
+    margin-bottom: 16px;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.container-3 p {
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
 }
