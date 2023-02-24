@@ -26,9 +26,6 @@ ul {
     display: flex;
     justify-content: flex-end;
     gap: 16px;
-}
-
-ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -36,6 +33,32 @@ ul {
 
 a {
     text-decoration: none;
-    font-size: 18px;
+}
+
+a, .subtext, button {
     color: #e5e7eb;
+    font-size: 18px;
+}
+
+/*container-1*/
+.container-1 {
+    background-color: #1f2937;
+    display: flex;
+    padding: 16px 48px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+button {
+    display: inline-block;
+    background-color: #3882f6;
+    padding: 8px 32px;
+    text-align: center;
+    border: 4px;
+    border-radius: 10px;
+    font-weight: bold;
 }
