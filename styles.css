@@ -7,6 +7,12 @@ body {
     justify-content: space-between;
 }
 
+.dark {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+}
+
 /*header*/
 .header {
     background-color: #1f2937;
@@ -14,6 +20,7 @@ body {
     justify-content: space-between;
     align-items: flex-end;
     padding: 16px 48px;
+    margin-bottom: 48px;
 }
 
 .logo {
@@ -45,12 +52,18 @@ a, .subtext, button {
     background-color: #1f2937;
     display: flex;
     padding: 16px 48px;
+    gap: 60px;
 }
 
 .title {
     font-size: 48px;
     font-weight: bolder;
     color: #f9faf8;
+    padding-bottom: 16px;
+}
+
+.subtext {
+    padding-bottom: 16px;
 }
 
 button {
@@ -61,4 +74,10 @@ button {
     border: 4px;
     border-radius: 10px;
     font-weight: bold;
+}
+
+.container-1 img {
+    width: 400px;
+    height: 400px;
+    flex-shrink: 0;
 }
